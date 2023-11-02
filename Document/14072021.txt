@@ -1,0 +1,14 @@
+'plate_number' => 'nullable|regex:/\d[11-99]-?\D\w?-\d{4,5}/|unique:App\Models\Vehicle',
+oto
+/\d[11-99]-?[A-Z][A-Z|1-9]?-\d{4,5}/
+
+
+XE MAYS
+/\d[11-99]-?[A-Z][1-9]?-\d{4,5}/
+
+                if ($request->type == 1) {
+	                'plate_number' => 'nullable|regex:/\d[11-99]-?\D\w?-\d{4,5}/|unique:App\Models\Vehicle',
+                }
+                if ($request->type == 1) {
+                	'plate_number' => 'nullable|regex:/\d[11-99]-?\D\w?-\d{4,5}/|unique:App\Models\Vehicle',
+                }

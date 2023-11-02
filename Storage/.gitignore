@@ -1,0 +1,28 @@
+/node_modules
+/storage/*.key
+/vendor
+.env
+/public
+.env.backup
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+/.idea/
+<<<<<<< HEAD
+!/public/css/
+!/public/js/
+!/public/images/
+!/storage/debugbar/
+_ide_helper_models
+_ide_helper_models.php
+=======
+/public/css
+/public/js
+/public/packages
+/public/plugins/
+/public/vendor
+.phpstorm.meta.php
+_ide_helper.php
+>>>>>>> f766f85946b27d82192c8fbc9b7ce677a4d218dc

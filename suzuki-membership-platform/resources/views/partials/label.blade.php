@@ -1,0 +1,1 @@
+<span class="label label-inline label-bl text-nowrap label-md label-{{ $class }}">{{ $message }}</span>

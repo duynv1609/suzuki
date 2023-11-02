@@ -1,0 +1,13 @@
+Object = {key:value}
+Object= {
+blind_van   :  [{name: 'duy'},{name: 'duy'}]
+}
+
+Array = [Object1, Object2]
+
+Array = ['blind_van', [{name: 'duy'},{name: 'duy'}]]
+
+Array = [1,2,3]
+Array .foreach ==> 1 2 3 
+
+Array . filter ==> [2,3]

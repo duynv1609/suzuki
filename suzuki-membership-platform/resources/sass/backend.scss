@@ -1,0 +1,25 @@
+$sidebar-width: 250px;
+
+.sidebar .nav-dropdown-items .nav-link {
+    font-size: 14px;
+}
+
+.sidebar .nav {
+    width: $sidebar-width;
+}
+
+.sidebar .sidebar-nav, .sidebar .sidebar-scroll {
+    width: $sidebar-width;
+}
+
+.form-group .help-block {
+    font-size: 13px;
+    margin-top: 8px;
+    color: #999999;
+}
+
+@media print {
+    body {
+        background-color: #FFFFFF;
+    }
+}

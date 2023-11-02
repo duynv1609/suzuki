@@ -1,0 +1,32 @@
+@W3bex.c0m
+
+Customers -> provinces
+Customers -> Dealers
+Customers-> Users
+Customers-> districts
+Memberships -> Customers
+item_order -> items
+item_order -> orders
+point history -> orders
+point history -> customers
+point history ->voucher_codes
+voucher_codes-> customers
+voucher_codes-> voucher
+voucher_codes -> dealers
+voucher-> vendors
+dealers -> provinces
+orders -> dealers
+orders -> vehicles
+orders -> voucher_codes
+orders -> users
+orders -> customers
+vehicles -> vehicle_colors
+vehicles -> vehicle_models
+vehicles -> dealers
+
+model_has_permission -> permissions
+role_has_permission -> permissions
+role_has_permissions -> roles
+model_has_roles -> roles
+
+09999999999 Pa$$w0rd!

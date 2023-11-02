@@ -1,0 +1,9 @@
+            if (!$getSlug && $contains == false) {
+                return back()->withInput()->with('errors', 'Vui lòng nhập đúng số khung theo chỉ dẫn.');
+            }
+
+return redirect()->back()->withInput($request->only('frame_number'));
+
+Dealer::orderBy([
+                'name'=> 'asc'
+            ])->get();
